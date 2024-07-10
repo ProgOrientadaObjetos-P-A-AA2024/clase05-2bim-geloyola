@@ -39,6 +39,8 @@ public class EvaluacionEnsayo implements EvaluacionTipoDos {
         promedioEnsayo = obtenerTotalProblemas() / obtenerNumeroProblemas();
 
     }
+    //se utiliza el metodo de establecerPromedioEnsayo de manera obligatoria ya que
+    //se esta implementando desde una interfaz (como EvaluacionTipoDos)
 
     @Override
     public double obtenerPromedioEnsayo() {

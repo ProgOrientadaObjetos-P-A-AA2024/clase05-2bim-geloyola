@@ -11,6 +11,8 @@ package paquete08i;
  */
 public interface EvaluacionTipoDos {
     
+    //implements se lo usa para trabajar con interfases 
+    
     public void establecerPromedioEnsayo();
     public double obtenerPromedioEnsayo();
     
